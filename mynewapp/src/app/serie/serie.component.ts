@@ -19,7 +19,7 @@ export class SerieComponent implements OnInit {
       series => {this.series = series
       let suma = 0;
       for (let serie of series) {
-        suma += serie.temporadas;
+        suma += serie.seasons;
       }
       this.promedio = suma / series.length;
       console.log(series);
